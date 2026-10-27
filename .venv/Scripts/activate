@@ -41,12 +41,12 @@ case "$(uname)" in
     CYGWIN*|MSYS*|MINGW*)
         # transform D:\path\to\venv to /d/path/to/venv on MSYS and MINGW
         # and to /cygdrive/d/path/to/venv on Cygwin
-        VIRTUAL_ENV=$(cygpath 'C:\Users\JHON LORA\Desktop\django_mongo\django_mongo\.venv')
+        VIRTUAL_ENV=$(cygpath 'C:\Users\JHON LORA\Desktop\django_mongo - copia\.venv')
         export VIRTUAL_ENV
         ;;
     *)
         # use the path as-is
-        export VIRTUAL_ENV='C:\Users\JHON LORA\Desktop\django_mongo\django_mongo\.venv'
+        export VIRTUAL_ENV='C:\Users\JHON LORA\Desktop\django_mongo - copia\.venv'
         ;;
 esac
 

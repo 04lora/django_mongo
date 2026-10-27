@@ -83,7 +83,6 @@ DATABASES = {
     }
 }
 
-
 # Password validation
 # https://docs.djangoproject.com/en/6.1/ref/settings/#auth-password-validators
 
@@ -131,4 +130,4 @@ MAILERS = {
 }
 
 MONGO_URI = os.getenv("MONGO_URI")
-MONGO_DB = os.getenv("MONGO_DB", "django_3504434_company")
+MONGO_DB = os.getenv("MONGO_DB", "tienda")
